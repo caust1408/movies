@@ -1,6 +1,6 @@
 
-load('moive.js');
-var movie = JSON.parse(MOVIES_FILE);
+load('movie.js');
+var movie = JSON.parse(MOVIE_FILE);
 function filter(array, test) {
 	  var passed = [];
 	    for (var i = 0; i < array.length; i++) {
@@ -10,7 +10,7 @@ function filter(array, test) {
 	      return passed;
 }
 
-print(JSON.stringify(filter(movie, function(title) {
-	  return title.release date > 2000 && title.release date < 2009 ;
+print(JSON.stringify(filter(movie, function(mov) {
+	  return mov.genre == 'drama' ;
 })));
 
