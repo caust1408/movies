@@ -35,7 +35,7 @@ var MOVIE_FILE = "[\n " + [
  '{"title": "The Usual Suspects", "rating": "8.7", "genre": "crime", "release date": "1995", "director": "Bryan Singer"}',
 
  '{"title": "The Silence of the Lambs", "rating": "8.6", "genre": "thriller", "release date": "1991", "director": "Jonathan Demme"}'
- ]join(",\n ") + "\n]";
+ ].join(",\n ") + "\n]";
 
  if (typeof module != "undefined" && module.exports) 
     module.exports = MOIVES_FILE;
