@@ -10,7 +10,7 @@ for (var i = 1; i < movie.length; i++) {
 	    //print(Curtime);
 	    Oldtime = cur.date;
 	    //print('this is time ' + Oldtime);
-	    DaysUntil = (Curtime-Oldtime);
+	    DaysUntil = (Math.floor(Curtime-Oldtime))/(86400000);
 print(new Date(DaysUntil));
 }
 //print(min);
