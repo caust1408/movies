@@ -28,7 +28,7 @@ var MOVIE_FILE = "[\n " + [
 
  '{"title": "Interstellar", "rating": "8.7", "genre": "Adventure", "date": "1030680000000", "director": "Christopher Nolan"}',
 
- '{"title": "City of God", "rating": "8.7", "genre": "drama", "date": "1415336400000", "director": "Fernando Meirelles"}',
+ '{"title": "City of God", "rating": "8.7", "genre": "drama", "date": "141533640000", "director": "Fernando Meirelles"}',
 
  '{"title": "Seven", "rating": "8.7", "genre": "thriller", "date": "811742400000", "director": "David Fincher"}',
 
